@@ -6,12 +6,12 @@
     "estados_inativos": 11,
     "cobertura_percentual": 59.3,
     "estado_mais_ativo": "Santa Catarina",
-    "periodo_analise": "2023-2025"
+    "periodo_analise": "2025"
   },
   "estados_detalhado": [
     {
       "nome": "Santa Catarina",
-      "atividades": 7,
+      "atividades": 716,
       "participantes": 4139,
       "ranking": 1
     },
@@ -186,7 +186,7 @@
     },
     {
       "mes": "Julho 2025",
-      "atividades": 146,
+      "atividades": 0,
       "participantes": 3029
     },
     {
