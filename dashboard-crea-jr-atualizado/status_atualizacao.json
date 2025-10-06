@@ -1,0 +1,24 @@
+{
+  "status": "ATUALIZACAO_PARCIAL",
+  "timestamp": "2025-10-05T22:20:00-03:00",
+  "ultima_atualizacao": "05/10/2025 às 22:20",
+  "regioes_atualizadas": [
+    "Nordeste",
+    "Sudeste"
+  ],
+  "regioes_pendentes": [
+    "Norte",
+    "Centro-Oeste",
+    "Sul"
+  ],
+  "registros_novos": 680,
+  "registros_anteriores": 1846,
+  "percentual_atualizacao": 40.0,
+  "estados_com_novos_dados": [],
+  "mensagem_popup": "Dados sendo atualizados! Disponíveis: Nordeste e Sudeste parcialmente. Outras regiões em processamento.",
+  "progresso": {
+    "concluido": 2,
+    "total": 5,
+    "percentual": 40
+  }
+}
