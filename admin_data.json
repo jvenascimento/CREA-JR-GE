@@ -1,0 +1,353 @@
+{
+  "situacao_estados": {
+    "ativos": {
+      "Rio Grande do Norte": 54,
+      "Distrito Federal": 29,
+      "Pará": 97,
+      "Espírito Santo": 213,
+      "Santa Catarina": 716,
+      "Rondônia": 22,
+      "Acre": 2,
+      "Goiás": 56,
+      "Mato Grosso": 30,
+      "Minas Gerais": 198,
+      "Amazonas": 26,
+      "Maranhão": 228,
+      "Piauí": 120,
+      "Roraima": 31,
+      "Sergipe": 20,
+      "Ceará": 4
+    },
+    "pendentes": [
+      "Rio Grande do Sul",
+      "Tocantins",
+      "Pernambuco",
+      "Paraíba",
+      "Paraná",
+      "Mato Grosso do Sul",
+      "Bahia"
+    ],
+    "situacao_especial": {
+      "Alagoas": "Não tem representante",
+      "Amapá": "Não tem CREA Jr",
+      "Rio de Janeiro": "Reestruturando",
+      "São Paulo": "Não tem CREA Jr"
+    },
+    "cobertura_real": 69.6
+  },
+  "analise_atividades": {
+    "top_volume": {
+      "Reunião": {
+        "Quantidade": 395,
+        "Total_Participantes": 2153.0,
+        "Media_Participantes": 5.67,
+        "Desvio_Padrao": 8.34,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 87.0,
+        "Percentual": 21.4,
+        "Taxa_Participacao": 6.5
+      },
+      "Reunião interna": {
+        "Quantidade": 300,
+        "Total_Participantes": 2169.0,
+        "Media_Participantes": 7.43,
+        "Desvio_Padrao": 7.28,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 58.0,
+        "Percentual": 16.3,
+        "Taxa_Participacao": 6.5
+      },
+      "Evento": {
+        "Quantidade": 241,
+        "Total_Participantes": 10173.0,
+        "Media_Participantes": 44.81,
+        "Desvio_Padrao": 207.03,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 3000.0,
+        "Percentual": 13.1,
+        "Taxa_Participacao": 30.6
+      },
+      "Palestras": {
+        "Quantidade": 230,
+        "Total_Participantes": 6754.5,
+        "Media_Participantes": 30.29,
+        "Desvio_Padrao": 28.53,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 200.0,
+        "Percentual": 12.5,
+        "Taxa_Participacao": 20.3
+      },
+      "Ciclo de Palestras": {
+        "Quantidade": 91,
+        "Total_Participantes": 1196.0,
+        "Media_Participantes": 13.29,
+        "Desvio_Padrao": 25.3,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 124.0,
+        "Percentual": 4.9,
+        "Taxa_Participacao": 3.6
+      },
+      "Visita técnica": {
+        "Quantidade": 70,
+        "Total_Participantes": 1031.0,
+        "Media_Participantes": 14.94,
+        "Desvio_Padrao": 15.95,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 80.0,
+        "Percentual": 3.8,
+        "Taxa_Participacao": 3.1
+      },
+      "Ação social": {
+        "Quantidade": 62,
+        "Total_Participantes": 1469.0,
+        "Media_Participantes": 24.48,
+        "Desvio_Padrao": 48.6,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 300.0,
+        "Percentual": 3.4,
+        "Taxa_Participacao": 4.4
+      },
+      "Desenvolvimento interno": {
+        "Quantidade": 62,
+        "Total_Participantes": 792.0,
+        "Media_Participantes": 12.98,
+        "Desvio_Padrao": 12.9,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 54.0,
+        "Percentual": 3.4,
+        "Taxa_Participacao": 2.4
+      },
+      "Treinamento": {
+        "Quantidade": 59,
+        "Total_Participantes": 615.0,
+        "Media_Participantes": 11.18,
+        "Desvio_Padrao": 9.95,
+        "Min_Participantes": 2.0,
+        "Max_Participantes": 52.0,
+        "Percentual": 3.2,
+        "Taxa_Participacao": 1.9
+      },
+      "Parceria": {
+        "Quantidade": 58,
+        "Total_Participantes": 577.0,
+        "Media_Participantes": 10.3,
+        "Desvio_Padrao": 17.29,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 100.0,
+        "Percentual": 3.1,
+        "Taxa_Participacao": 1.7
+      }
+    },
+    "top_efetividade": {
+      "Seminários": {
+        "Quantidade": 7,
+        "Total_Participantes": 694.2,
+        "Media_Participantes": 99.17,
+        "Desvio_Padrao": 178.8,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 500.0,
+        "Percentual": 0.4,
+        "Taxa_Participacao": 2.1
+      },
+      "Semana de engenharia": {
+        "Quantidade": 31,
+        "Total_Participantes": 1914.0,
+        "Media_Participantes": 66.0,
+        "Desvio_Padrao": 106.05,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 350.0,
+        "Percentual": 1.7,
+        "Taxa_Participacao": 5.8
+      },
+      "Evento": {
+        "Quantidade": 241,
+        "Total_Participantes": 10173.0,
+        "Media_Participantes": 44.81,
+        "Desvio_Padrao": 207.03,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 3000.0,
+        "Percentual": 13.1,
+        "Taxa_Participacao": 30.6
+      },
+      "Palestras": {
+        "Quantidade": 230,
+        "Total_Participantes": 6754.5,
+        "Media_Participantes": 30.29,
+        "Desvio_Padrao": 28.53,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 200.0,
+        "Percentual": 12.5,
+        "Taxa_Participacao": 20.3
+      },
+      "Ação social": {
+        "Quantidade": 62,
+        "Total_Participantes": 1469.0,
+        "Media_Participantes": 24.48,
+        "Desvio_Padrao": 48.6,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 300.0,
+        "Percentual": 3.4,
+        "Taxa_Participacao": 4.4
+      },
+      "Workshop": {
+        "Quantidade": 18,
+        "Total_Participantes": 326.0,
+        "Media_Participantes": 21.73,
+        "Desvio_Padrao": 22.0,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 60.0,
+        "Percentual": 1.0,
+        "Taxa_Participacao": 1.0
+      },
+      "Curso": {
+        "Quantidade": 17,
+        "Total_Participantes": 344.0,
+        "Media_Participantes": 21.5,
+        "Desvio_Padrao": 28.85,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 85.0,
+        "Percentual": 0.9,
+        "Taxa_Participacao": 1.0
+      },
+      "Minicurso": {
+        "Quantidade": 33,
+        "Total_Participantes": 629.0,
+        "Media_Participantes": 19.66,
+        "Desvio_Padrao": 15.03,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 66.0,
+        "Percentual": 1.8,
+        "Taxa_Participacao": 1.9
+      },
+      "Processo seletivo": {
+        "Quantidade": 46,
+        "Total_Participantes": 771.0,
+        "Media_Participantes": 17.93,
+        "Desvio_Padrao": 17.32,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 83.0,
+        "Percentual": 2.5,
+        "Taxa_Participacao": 2.3
+      },
+      "Capacitação": {
+        "Quantidade": 57,
+        "Total_Participantes": 857.0,
+        "Media_Participantes": 16.17,
+        "Desvio_Padrao": 15.03,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 55.0,
+        "Percentual": 3.1,
+        "Taxa_Participacao": 2.6
+      }
+    },
+    "top_alcance": {
+      "Evento": {
+        "Quantidade": 241,
+        "Total_Participantes": 10173.0,
+        "Media_Participantes": 44.81,
+        "Desvio_Padrao": 207.03,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 3000.0,
+        "Percentual": 13.1,
+        "Taxa_Participacao": 30.6
+      },
+      "Palestras": {
+        "Quantidade": 230,
+        "Total_Participantes": 6754.5,
+        "Media_Participantes": 30.29,
+        "Desvio_Padrao": 28.53,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 200.0,
+        "Percentual": 12.5,
+        "Taxa_Participacao": 20.3
+      },
+      "Reunião interna": {
+        "Quantidade": 300,
+        "Total_Participantes": 2169.0,
+        "Media_Participantes": 7.43,
+        "Desvio_Padrao": 7.28,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 58.0,
+        "Percentual": 16.3,
+        "Taxa_Participacao": 6.5
+      },
+      "Reunião": {
+        "Quantidade": 395,
+        "Total_Participantes": 2153.0,
+        "Media_Participantes": 5.67,
+        "Desvio_Padrao": 8.34,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 87.0,
+        "Percentual": 21.4,
+        "Taxa_Participacao": 6.5
+      },
+      "Semana de engenharia": {
+        "Quantidade": 31,
+        "Total_Participantes": 1914.0,
+        "Media_Participantes": 66.0,
+        "Desvio_Padrao": 106.05,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 350.0,
+        "Percentual": 1.7,
+        "Taxa_Participacao": 5.8
+      },
+      "Ação social": {
+        "Quantidade": 62,
+        "Total_Participantes": 1469.0,
+        "Media_Participantes": 24.48,
+        "Desvio_Padrao": 48.6,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 300.0,
+        "Percentual": 3.4,
+        "Taxa_Participacao": 4.4
+      },
+      "Ciclo de Palestras": {
+        "Quantidade": 91,
+        "Total_Participantes": 1196.0,
+        "Media_Participantes": 13.29,
+        "Desvio_Padrao": 25.3,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 124.0,
+        "Percentual": 4.9,
+        "Taxa_Participacao": 3.6
+      },
+      "Visita técnica": {
+        "Quantidade": 70,
+        "Total_Participantes": 1031.0,
+        "Media_Participantes": 14.94,
+        "Desvio_Padrao": 15.95,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 80.0,
+        "Percentual": 3.8,
+        "Taxa_Participacao": 3.1
+      },
+      "Capacitação": {
+        "Quantidade": 57,
+        "Total_Participantes": 857.0,
+        "Media_Participantes": 16.17,
+        "Desvio_Padrao": 15.03,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 55.0,
+        "Percentual": 3.1,
+        "Taxa_Participacao": 2.6
+      },
+      "Desenvolvimento interno": {
+        "Quantidade": 62,
+        "Total_Participantes": 792.0,
+        "Media_Participantes": 12.98,
+        "Desvio_Padrao": 12.9,
+        "Min_Participantes": 1.0,
+        "Max_Participantes": 54.0,
+        "Percentual": 3.4,
+        "Taxa_Participacao": 2.4
+      }
+    }
+  },
+  "estatisticas_detalhadas": {
+    "total_tipos_atividade": 21,
+    "tipo_mais_comum": "Reunião",
+    "tipo_mais_efetivo": "Seminários",
+    "media_participantes_geral": 18.76749576031656,
+    "desvio_padrao_geral": 79.40601199146154
+  }
+}

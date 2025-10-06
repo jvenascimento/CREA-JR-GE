@@ -1,0 +1,515 @@
+{
+  "resumo_executivo": {
+    "total_atividades": 1846,
+    "total_participantes": 33200,
+    "estados_ativos": 16,
+    "estados_pendentes": 7,
+    "estados_situacao_especial": 4,
+    "cobertura_real": 69.6,
+    "maior_evento": 3000,
+    "media_participantes": 18.8,
+    "periodo_analise": "2023-2025"
+  },
+  "secao_geral": {
+    "evolucao_mensal": [
+      {
+        "mes": "Janeiro",
+        "atividades": 87,
+        "participantes": 1502
+      },
+      {
+        "mes": "Fevereiro",
+        "atividades": 198,
+        "participantes": 3499
+      },
+      {
+        "mes": "Março",
+        "atividades": 345,
+        "participantes": 4740
+      },
+      {
+        "mes": "Abril",
+        "atividades": 359,
+        "participantes": 6125
+      },
+      {
+        "mes": "Maio",
+        "atividades": 318,
+        "participantes": 5817
+      },
+      {
+        "mes": "Junho",
+        "atividades": 211,
+        "participantes": 6275
+      },
+      {
+        "mes": "Julho",
+        "atividades": 146,
+        "participantes": 3029
+      },
+      {
+        "mes": "Agosto",
+        "atividades": 172,
+        "participantes": 2024
+      }
+    ],
+    "modalidades_detalhadas": [
+      {
+        "modalidade": "Presencial",
+        "atividades": 1067,
+        "participantes": 24721,
+        "media": 23.2,
+        "categoria_principal": "Reunião"
+      },
+      {
+        "modalidade": "Online",
+        "atividades": 747,
+        "participantes": 7794,
+        "media": 10.4,
+        "categoria_principal": "Desenvolvimento interno"
+      },
+      {
+        "modalidade": "Híbrido",
+        "atividades": 25,
+        "participantes": 685,
+        "media": 27.4,
+        "categoria_principal": "Ação social"
+      }
+    ],
+    "top_categorias": [
+      {
+        "categoria": "CREA Jr",
+        "atividades": 778,
+        "participantes": 10236,
+        "percentual": 42.2
+      },
+      {
+        "categoria": "Nucleo",
+        "atividades": 266,
+        "participantes": 7736,
+        "percentual": 14.4
+      },
+      {
+        "categoria": "CREA",
+        "atividades": 255,
+        "participantes": 3073,
+        "percentual": 13.8
+      },
+      {
+        "categoria": "IES",
+        "atividades": 171,
+        "participantes": 1453,
+        "percentual": 9.3
+      },
+      {
+        "categoria": "Estadual",
+        "atividades": 73,
+        "participantes": 2683,
+        "percentual": 4.0
+      },
+      {
+        "categoria": "Parceria",
+        "atividades": 91,
+        "participantes": 534,
+        "percentual": 4.9
+      },
+      {
+        "categoria": "Empresa",
+        "atividades": 49,
+        "participantes": 3272,
+        "percentual": 2.7
+      },
+      {
+        "categoria": "Entidades de classe",
+        "atividades": 37,
+        "participantes": 661,
+        "percentual": 2.0
+      }
+    ]
+  },
+  "secao_regional": {
+    "comparativo_regional": [
+      {
+        "regiao": "Sul",
+        "atividades": 716,
+        "participantes": 4139,
+        "estados_ativos": 1,
+        "total_estados": 3,
+        "cobertura": 33.3,
+        "efetividade": 5.86,
+        "modalidade_principal": "Presencial",
+        "tipo_principal": "Reunião",
+        "estados_com_dados": [
+          "Santa Catarina"
+        ],
+        "estados_sem_dados": [
+          "Paraná",
+          "Rio Grande do Sul"
+        ],
+        "insights": "Concentração extrema em SC. Necessário expandir para PR e RS."
+      },
+      {
+        "regiao": "Nordeste",
+        "atividades": 426,
+        "participantes": 14077,
+        "estados_ativos": 5,
+        "total_estados": 9,
+        "cobertura": 55.6,
+        "efetividade": 33.2,
+        "modalidade_principal": "Presencial",
+        "tipo_principal": "Evento",
+        "estados_com_dados": [
+          "Maranhão",
+          "Piauí",
+          "Rio Grande do Norte",
+          "Sergipe",
+          "Ceará"
+        ],
+        "estados_sem_dados": [
+          "Bahia",
+          "Pernambuco",
+          "Paraíba",
+          "Alagoas"
+        ],
+        "insights": "Melhor efetividade nacional. Falta Bahia e Pernambuco."
+      },
+      {
+        "regiao": "Sudeste",
+        "atividades": 411,
+        "participantes": 9522,
+        "estados_ativos": 2,
+        "total_estados": 4,
+        "cobertura": 50.0,
+        "efetividade": 23.92,
+        "modalidade_principal": "Online",
+        "tipo_principal": "Reunião interna",
+        "estados_com_dados": [
+          "Espírito Santo",
+          "Minas Gerais"
+        ],
+        "estados_sem_dados": [
+          "São Paulo",
+          "Rio de Janeiro"
+        ],
+        "insights": "Ausência crítica em SP/RJ - maiores mercados."
+      },
+      {
+        "regiao": "Norte",
+        "atividades": 178,
+        "participantes": 3828,
+        "estados_ativos": 5,
+        "total_estados": 7,
+        "cobertura": 71.4,
+        "efetividade": 23.2,
+        "modalidade_principal": "Presencial",
+        "tipo_principal": "Evento",
+        "estados_com_dados": [
+          "Pará",
+          "Roraima",
+          "Amazonas",
+          "Rondônia",
+          "Acre"
+        ],
+        "estados_sem_dados": [
+          "Amapá",
+          "Tocantins"
+        ],
+        "insights": "Melhor cobertura regional. Modelo de referência."
+      },
+      {
+        "regiao": "Centro-Oeste",
+        "atividades": 115,
+        "participantes": 1634,
+        "estados_ativos": 3,
+        "total_estados": 4,
+        "cobertura": 75.0,
+        "efetividade": 21.5,
+        "modalidade_principal": "Online",
+        "tipo_principal": "Reunião interna",
+        "estados_com_dados": [
+          "Goiás",
+          "Mato Grosso",
+          "Distrito Federal"
+        ],
+        "estados_sem_dados": [
+          "Mato Grosso do Sul"
+        ],
+        "insights": "Segunda melhor cobertura. Falta apenas MS."
+      }
+    ]
+  },
+  "secao_estados": {
+    "ranking_completo": [
+      {
+        "posicao": 1,
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "atividades": 716,
+        "participantes": 4139,
+        "efetividade": 5.78,
+        "modalidade_principal": "Presencial"
+      },
+      {
+        "posicao": 2,
+        "estado": "Maranhão",
+        "regiao": "Nordeste",
+        "atividades": 228,
+        "participantes": 4473,
+        "efetividade": 19.62,
+        "modalidade_principal": "Presencial"
+      },
+      {
+        "posicao": 3,
+        "estado": "Espírito Santo",
+        "regiao": "Sudeste",
+        "atividades": 213,
+        "participantes": 3154,
+        "efetividade": 14.81,
+        "modalidade_principal": "Online"
+      },
+      {
+        "posicao": 4,
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "atividades": 198,
+        "participantes": 6368,
+        "efetividade": 32.16,
+        "modalidade_principal": "Online"
+      },
+      {
+        "posicao": 5,
+        "estado": "Piauí",
+        "regiao": "Nordeste",
+        "atividades": 120,
+        "participantes": 7722,
+        "efetividade": 64.35,
+        "modalidade_principal": "Presencial"
+      },
+      {
+        "posicao": 6,
+        "estado": "Pará",
+        "regiao": "Norte",
+        "atividades": 97,
+        "participantes": 2738,
+        "efetividade": 28.23,
+        "modalidade_principal": "Presencial"
+      },
+      {
+        "posicao": 7,
+        "estado": "Goiás",
+        "regiao": "Centro-Oeste",
+        "atividades": 56,
+        "participantes": 1107,
+        "efetividade": 19.77,
+        "modalidade_principal": "Online"
+      },
+      {
+        "posicao": 8,
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "atividades": 54,
+        "participantes": 206,
+        "efetividade": 3.81,
+        "modalidade_principal": "Presencial"
+      },
+      {
+        "posicao": 9,
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "atividades": 31,
+        "participantes": 731,
+        "efetividade": 23.58,
+        "modalidade_principal": "Presencial"
+      },
+      {
+        "posicao": 10,
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "atividades": 30,
+        "participantes": 16,
+        "efetividade": 0.53,
+        "modalidade_principal": "Presencial"
+      }
+    ],
+    "situacao_estados": {
+      "ativos": 16,
+      "pendentes": 7,
+      "situacao_especial": {
+        "Alagoas": "Não tem representante",
+        "Amapá": "Não tem CREA Jr",
+        "Rio de Janeiro": "Reestruturando",
+        "São Paulo": "Não tem CREA Jr"
+      },
+      "estados_pendentes": [
+        "Bahia",
+        "Mato Grosso do Sul",
+        "Paraná",
+        "Paraíba",
+        "Pernambuco",
+        "Rio Grande do Sul",
+        "Tocantins"
+      ]
+    }
+  },
+  "secao_atividades": {
+    "podios": {
+      "volume": [
+        {
+          "posicao": 1,
+          "tipo": "Reunião",
+          "quantidade": 395,
+          "percentual": 21.4,
+          "emoji": "🥇"
+        },
+        {
+          "posicao": 2,
+          "tipo": "Reunião interna",
+          "quantidade": 300,
+          "percentual": 16.3,
+          "emoji": "🥈"
+        },
+        {
+          "posicao": 3,
+          "tipo": "Evento",
+          "quantidade": 241,
+          "percentual": 13.1,
+          "emoji": "🥉"
+        },
+        {
+          "posicao": 4,
+          "tipo": "Palestras",
+          "quantidade": 230,
+          "percentual": 12.5,
+          "emoji": "🏅"
+        },
+        {
+          "posicao": 5,
+          "tipo": "Ciclo de Palestras",
+          "quantidade": 91,
+          "percentual": 4.9,
+          "emoji": "🏅"
+        }
+      ],
+      "efetividade": [
+        {
+          "posicao": 1,
+          "tipo": "Seminários",
+          "efetividade": 99.17,
+          "atividades": 7,
+          "emoji": "🥇"
+        },
+        {
+          "posicao": 2,
+          "tipo": "Semana de engenharia",
+          "efetividade": 66.0,
+          "atividades": 31,
+          "emoji": "🥈"
+        },
+        {
+          "posicao": 3,
+          "tipo": "Evento",
+          "efetividade": 44.81,
+          "atividades": 241,
+          "emoji": "🥉"
+        },
+        {
+          "posicao": 4,
+          "tipo": "Palestras",
+          "efetividade": 30.29,
+          "atividades": 230,
+          "emoji": "🏅"
+        },
+        {
+          "posicao": 5,
+          "tipo": "Ação social",
+          "efetividade": 24.48,
+          "atividades": 62,
+          "emoji": "🏅"
+        }
+      ]
+    },
+    "tipos_completos": [
+      {
+        "tipo": "Reunião",
+        "quantidade": 395,
+        "participantes": 2153,
+        "media": 5.45,
+        "modalidade_principal": "Presencial",
+        "regiao_principal": "Sul"
+      },
+      {
+        "tipo": "Reunião interna",
+        "quantidade": 300,
+        "participantes": 2169,
+        "media": 7.23,
+        "modalidade_principal": "Online",
+        "regiao_principal": "Sul"
+      },
+      {
+        "tipo": "Evento",
+        "quantidade": 241,
+        "participantes": 10173,
+        "media": 42.21,
+        "modalidade_principal": "Presencial",
+        "regiao_principal": "Nordeste"
+      },
+      {
+        "tipo": "Palestras",
+        "quantidade": 230,
+        "participantes": 6755,
+        "media": 29.37,
+        "modalidade_principal": "Presencial",
+        "regiao_principal": "Nordeste"
+      },
+      {
+        "tipo": "Ciclo de Palestras",
+        "quantidade": 91,
+        "participantes": 1196,
+        "media": 13.14,
+        "modalidade_principal": "Presencial",
+        "regiao_principal": "Nordeste"
+      }
+    ],
+    "heatmap_tipo_modalidade": {
+      "tipos": [
+        "Reunião",
+        "Reunião interna",
+        "Evento",
+        "Palestras",
+        "Ciclo de Palestras"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Online",
+        "Híbrido"
+      ],
+      "dados": [
+        [
+          273,
+          120,
+          2
+        ],
+        [
+          142,
+          157,
+          1
+        ],
+        [
+          225,
+          13,
+          1
+        ],
+        [
+          168,
+          60,
+          2
+        ],
+        [
+          83,
+          8,
+          0
+        ]
+      ]
+    }
+  }
+}
