@@ -38,7 +38,6 @@ const dashboardData = {
         "situacao_especial": {
             "Alagoas": "Não tem representante",
             "Amapá": "Não tem CREA Jr",
-            "Rio de Janeiro": "Reestruturando",
             "São Paulo": "Não tem CREA Jr"
         },
         "estados_atualizados": ["Maranhão", "Piauí", "Bahia", "Goiás", "Rio Grande do Norte", "Mato Grosso", "Distrito Federal", "Sergipe", "Ceará"]
@@ -98,7 +97,7 @@ const dashboardData = {
         "em_atualizacao": true,
         "timestamp": "2025-10-05T22:20:00-03:00",
         "ultima_atualizacao": "05/10/2025 às 22:20",
-        "regioes_disponiveis": ["Nordeste", "Sudeste"],
+        "regioes_disponiveis": ["Nordeste (Parcial)", "Sudeste (Parcial)"],
         "regioes_pendentes": ["Norte", "Centro-Oeste", "Sul"],
         "progresso_percentual": 40,
         "total_registros_novos": 680,
