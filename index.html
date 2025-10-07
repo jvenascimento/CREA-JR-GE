@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD SOEA-25 - Análise Completa por Estado</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>DASHBOARD SOEA-25</h1>
+            <p class="period">Análise Completa | Janeiro a Outubro 2025 | 19 Estados Ativos | 2.647 Eventos</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-navigation">
+        <div class="container">
+            <div class="nav-links">
+                <button class="nav-link active" data-section="nacional">📊 Sumário Nacional</button>
+                <button class="nav-link" data-section="estados">🗺️ Análise por Estado</button>
+                <button class="nav-link" data-section="regional">🏛️ Comparação Regional</button>
+                <button class="nav-link" data-section="rankings">🏆 Rankings Completos</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Sumário Nacional -->
+        <section class="section-content active" id="nacional-section">
+            <div class="section-header">
+                <h2>📊 Sumário Executivo Nacional</h2>
+                <div class="summary-badges">
+                    <span class="badge primary">2.647 Eventos</span>
+                    <span class="badge secondary">19 Estados</span>
+                    <span class="badge success">5 Regiões</span>
+                </div>
+            </div>
+
+            <!-- KPIs Nacionais -->
+            <div class="national-kpis">
+                <div class="kpi-card primary">
+                    <div class="kpi-icon">📈</div>
+                    <div class="kpi-content">
+                        <div class="kpi-value">2.647</div>
+                        <div class="kpi-label">Total de Eventos</div>
+                        <div class="kpi-subtitle">Janeiro a Outubro 2025</div>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon">🏆</div>
+                    <div class="kpi-content">
+                        <div class="kpi-value">Santa Catarina</div>
+                        <div class="kpi-label">Estado Líder</div>
+                        <div class="kpi-subtitle">821 eventos (31.0%)</div>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon">📅</div>
+                    <div class="kpi-content">
+                        <div class="kpi-value">264.7</div>
+                        <div class="kpi-label">Média Mensal</div>
+                        <div class="kpi-subtitle">Eventos por mês</div>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon">🎯</div>
+                    <div class="kpi-content">
+                        <div class="kpi-value">Presencial</div>
+                        <div class="kpi-label">Modalidade Principal</div>
+                        <div class="kpi-subtitle">53.3% dos eventos</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Distribuições Nacionais -->
+            <div class="national-charts">
+                <div class="chart-container">
+                    <h3>Distribuição por Modalidade</h3>
+                    <div class="chart-wrapper" style="position: relative; height: 300px;">
+                        <canvas id="nationalModalitiesChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <h3>Distribuição Regional</h3>
+                    <div class="chart-wrapper" style="position: relative; height: 300px;">
+                        <canvas id="nationalRegionalChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container full-width">
+                    <h3>Top 15 Tipos de Atividade Nacional</h3>
+                    <div class="chart-wrapper" style="position: relative; height: 400px;">
+                        <canvas id="nationalActivitiesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Análise por Estado -->
+        <section class="section-content" id="estados-section">
+            <!-- Seletor de Estados -->
+            <div class="state-selector-wrapper">
+                <div class="selector-header">
+                    <h2>🗺️ Análise Detalhada por Estado</h2>
+                    <div class="selector-controls">
+                        <div class="search-container">
+                            <input type="text" id="stateSearch" class="form-control" placeholder="Buscar estado..." />
+                        </div>
+                        <div class="filter-container">
+                            <select id="regionFilter" class="form-control">
+                                <option value="">Todas as Regiões</option>
+                                <option value="Norte">Norte (6 estados)</option>
+                                <option value="Nordeste">Nordeste (6 estados)</option>
+                                <option value="Centro-Oeste">Centro-Oeste (3 estados)</option>
+                                <option value="Sudeste">Sudeste (2 estados)</option>
+                                <option value="Sul">Sul (2 estados)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="states-grid">
+                    <!-- Estados serão carregados dinamicamente -->
+                </div>
+            </div>
+
+            <!-- Análise Detalhada do Estado -->
+            <div class="state-analysis-container" id="stateAnalysisContainer" style="display: none;">
+                <!-- Cabeçalho do Estado -->
+                <div class="state-header-section">
+                    <div class="state-title-area">
+                        <h2 id="selectedStateName">Nome do Estado</h2>
+                        <div class="state-badges">
+                            <span class="state-region-badge" id="selectedStateRegion">Região</span>
+                            <span class="state-ranking-badge" id="selectedStateRanking">#1</span>
+                        </div>
+                    </div>
+                    <div class="state-controls">
+                        <button class="btn btn--outline" id="backToSelector">← Voltar</button>
+                        <button class="btn btn--secondary" id="compareStates">Comparar</button>
+                        <button class="btn btn--primary" id="exportState">Exportar</button>
+                    </div>
+                </div>
+
+                <!-- Informações Básicas -->
+                <div class="state-basic-info-grid">
+                    <div class="info-card primary">
+                        <div class="info-icon">📊</div>
+                        <div class="info-content">
+                            <div class="info-value" id="stateTotal">0</div>
+                            <div class="info-label">Total de Eventos</div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🏆</div>
+                        <div class="info-content">
+                            <div class="info-value" id="stateNationalRank">#1</div>
+                            <div class="info-label">Ranking Nacional</div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📈</div>
+                        <div class="info-content">
+                            <div class="info-value" id="stateParticipation">31.0%</div>
+                            <div class="info-label">Participação Nacional</div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📅</div>
+                        <div class="info-content">
+                            <div class="info-value" id="stateAverage">82.1</div>
+                            <div class="info-label">Média/Mês</div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📊</div>
+                        <div class="info-content">
+                            <div class="info-value" id="stateActiveMonths">10/10</div>
+                            <div class="info-label">Meses Ativos</div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <div class="info-value" id="stateRegionalRank">#1</div>
+                            <div class="info-label">Ranking Regional</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evolução Temporal -->
+                <div class="analysis-section">
+                    <div class="section-header">
+                        <h3>📈 Evolução Temporal Detalhada</h3>
+                        <div class="trend-indicator" id="trendIndicator">
+                            <span class="trend-icon">📈</span>
+                            <span class="trend-text">Decrescente</span>
+                        </div>
+                    </div>
+                    <div class="temporal-analysis-grid">
+                        <div class="chart-container">
+                            <div class="chart-wrapper" style="position: relative; height: 350px;">
+                                <canvas id="stateEvolutionChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="temporal-insights">
+                            <div class="insight-item">
+                                <div class="insight-label">Pico Máximo</div>
+                                <div class="insight-value" id="statePeakMonth">Jul/2025: 93 eventos</div>
+                            </div>
+                            <div class="insight-item">
+                                <div class="insight-label">Vale Mínimo</div>
+                                <div class="insight-value" id="stateValleyMonth">Out/2025: 55 eventos</div>
+                            </div>
+                            <div class="insight-item">
+                                <div class="insight-label">Variância Mensal</div>
+                                <div class="insight-value" id="stateVariance">127.21</div>
+                            </div>
+                            <div class="insight-item">
+                                <div class="insight-label">Sazonalidade</div>
+                                <div class="insight-value" id="stateSeason">Alta</div>
+                            </div>
+                            <div class="top-months">
+                                <h4>Top 3 Meses Mais Ativos</h4>
+                                <div class="months-list" id="topMonthsList">
+                                    <!-- Carregado dinamicamente -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Distribuições Detalhadas -->
+                <div class="analysis-section">
+                    <div class="section-header">
+                        <h3>🎯 Distribuições Detalhadas</h3>
+                        <div class="distribution-summary" id="distributionSummary">
+                            <span class="preferred-modality">Presencial</span>
+                            <span class="separator">•</span>
+                            <span class="main-category">CREA Jr</span>
+                        </div>
+                    </div>
+                    <div class="distributions-analysis-grid">
+                        <div class="chart-container">
+                            <h4>Modalidades</h4>
+                            <div class="chart-wrapper" style="position: relative; height: 300px;">
+                                <canvas id="stateModalitiesChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <h4>Categorias</h4>
+                            <div class="chart-wrapper" style="position: relative; height: 300px;">
+                                <canvas id="stateCategoriesChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-container full-width">
+                            <h4>Top 15 Tipos de Atividade do Estado</h4>
+                            <div class="activities-list" id="stateActivitiesList">
+                                <!-- Carregado dinamicamente -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Análise Comparativa -->
+                <div class="analysis-section">
+                    <div class="section-header">
+                        <h3>⚖️ Análise Comparativa Completa</h3>
+                    </div>
+                    <div class="comparative-analysis-grid">
+                        <div class="comparison-card">
+                            <div class="comparison-title">Posição Nacional</div>
+                            <div class="comparison-value national" id="nationalPosition">#1 de 19 estados</div>
+                            <div class="comparison-subtitle" id="nationalPercentile">94.7º percentil</div>
+                        </div>
+                        <div class="comparison-card">
+                            <div class="comparison-title">Posição Regional</div>
+                            <div class="comparison-value regional" id="regionalPosition">#1 na região Sul</div>
+                            <div class="comparison-subtitle" id="regionalStatus">Acima da média regional</div>
+                        </div>
+                        <div class="comparison-card">
+                            <div class="comparison-title">Densidade Temporal</div>
+                            <div class="comparison-value density" id="temporalDensity">82.1 eventos/mês</div>
+                            <div class="comparison-subtitle">Alta densidade</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Insights Personalizados -->
+                <div class="analysis-section">
+                    <div class="section-header">
+                        <h3>💡 Insights Personalizados</h3>
+                    </div>
+                    <div class="insights-analysis-grid">
+                        <div class="insight-card unique">
+                            <h4>🎯 Características Únicas</h4>
+                            <ul id="uniqueCharacteristics">
+                                <!-- Carregado dinamicamente -->
+                            </ul>
+                        </div>
+                        <div class="insight-card strengths">
+                            <h4>💪 Pontos Fortes</h4>
+                            <ul id="stateStrengths">
+                                <!-- Carregado dinamicamente -->
+                            </ul>
+                        </div>
+                        <div class="insight-card recommendations">
+                            <h4>🚀 Recomendações Estratégicas</h4>
+                            <ul id="stateRecommendations">
+                                <!-- Carregado dinamicamente -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparação Regional -->
+        <section class="section-content" id="regional-section">
+            <div class="section-header">
+                <h2>🏛️ Comparação Regional</h2>
+                <p>Análise detalhada por região com 5 regiões ativas</p>
+            </div>
+
+            <div class="regional-overview-grid">
+                <div class="regional-card region-sul">
+                    <div class="region-header">
+                        <h3>Região Sul</h3>
+                        <div class="region-badge dominant">Líder Nacional</div>
+                    </div>
+                    <div class="region-stats">
+                        <div class="stat">
+                            <span class="stat-value">1.144</span>
+                            <span class="stat-label">eventos (43.2%)</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">2</span>
+                            <span class="stat-label">estados ativos</span>
+                        </div>
+                    </div>
+                    <div class="region-ranking">
+                        <div class="ranking-item">1º Santa Catarina - 821 eventos</div>
+                        <div class="ranking-item">2º Paraná - 323 eventos</div>
+                    </div>
+                </div>
+
+                <div class="regional-card region-sudeste">
+                    <div class="region-header">
+                        <h3>Região Sudeste</h3>
+                        <div class="region-badge strong">2º Lugar</div>
+                    </div>
+                    <div class="region-stats">
+                        <div class="stat">
+                            <span class="stat-value">583</span>
+                            <span class="stat-label">eventos (22.0%)</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">2</span>
+                            <span class="stat-label">estados ativos</span>
+                        </div>
+                    </div>
+                    <div class="region-ranking">
+                        <div class="ranking-item">1º Minas Gerais - 367 eventos</div>
+                        <div class="ranking-item">2º Espírito Santo - 216 eventos</div>
+                    </div>
+                </div>
+
+                <div class="regional-card region-nordeste">
+                    <div class="region-header">
+                        <h3>Região Nordeste</h3>
+                        <div class="region-badge moderate">3º Lugar</div>
+                    </div>
+                    <div class="region-stats">
+                        <div class="stat">
+                            <span class="stat-value">571</span>
+                            <span class="stat-label">eventos (21.6%)</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">6</span>
+                            <span class="stat-label">estados ativos</span>
+                        </div>
+                    </div>
+                    <div class="region-ranking">
+                        <div class="ranking-item">1º Maranhão - 269 eventos</div>
+                        <div class="ranking-item">2º Piauí - 137 eventos</div>
+                        <div class="ranking-item">3º Bahia - 84 eventos</div>
+                    </div>
+                </div>
+
+                <div class="regional-card region-norte">
+                    <div class="region-header">
+                        <h3>Região Norte</h3>
+                        <div class="region-badge developing">4º Lugar</div>
+                    </div>
+                    <div class="region-stats">
+                        <div class="stat">
+                            <span class="stat-value">197</span>
+                            <span class="stat-label">eventos (7.4%)</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">5</span>
+                            <span class="stat-label">estados ativos</span>
+                        </div>
+                    </div>
+                    <div class="region-ranking">
+                        <div class="ranking-item">1º Pará - 118 eventos</div>
+                        <div class="ranking-item">2º Amazonas - 56 eventos</div>
+                        <div class="ranking-item">3º Rondônia - 36 eventos</div>
+                    </div>
+                </div>
+
+                <div class="regional-card region-centrooeste">
+                    <div class="region-header">
+                        <h3>Região Centro-Oeste</h3>
+                        <div class="region-badge emerging">5º Lugar</div>
+                    </div>
+                    <div class="region-stats">
+                        <div class="stat">
+                            <span class="stat-value">115</span>
+                            <span class="stat-label">eventos (4.3%)</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">3</span>
+                            <span class="stat-label">estados ativos</span>
+                        </div>
+                    </div>
+                    <div class="region-ranking">
+                        <div class="ranking-item">1º Goiás - 56 eventos</div>
+                        <div class="ranking-item">2º Mato Grosso - 30 eventos</div>
+                        <div class="ranking-item">3º Distrito Federal - 29 eventos</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rankings Completos -->
+        <section class="section-content" id="rankings-section">
+            <div class="section-header">
+                <h2>🏆 Rankings Completos</h2>
+                <p>Todos os rankings nacionais e regionais atualizados</p>
+            </div>
+
+            <div class="rankings-grid">
+                <div class="ranking-panel">
+                    <h3>🏆 Ranking Nacional por Volume</h3>
+                    <div class="ranking-list" id="nationalRankingList">
+                        <!-- Carregado dinamicamente -->
+                    </div>
+                </div>
+                <div class="ranking-panel">
+                    <h3>📈 Ranking por Consistência</h3>
+                    <div class="ranking-list" id="consistencyRankingList">
+                        <!-- Carregado dinamicamente -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal de Comparação -->
+    <div class="modal hidden" id="compareModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Comparar Estados</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="compare-selector">
+                    <div class="compare-field">
+                        <label>Estado 1:</label>
+                        <select id="compareState1" class="form-control">
+                            <option value="">Selecionar estado...</option>
+                        </select>
+                    </div>
+                    <div class="compare-field">
+                        <label>Estado 2:</label>
+                        <select id="compareState2" class="form-control">
+                            <option value="">Selecionar estado...</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="compare-results" id="compareResults">
+                    <!-- Carregado dinamicamente -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--outline" id="cancelCompare">Cancelar</button>
+                <button class="btn btn--primary" id="executeCompare">Comparar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CREA Jr - DASHBOARD SOEA-25. Versão 6.0 | Processado em 07/10/2025 às 06:25 | Todos os dados completos carregados</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

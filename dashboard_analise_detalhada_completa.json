@@ -1,0 +1,1628 @@
+{
+  "metadata": {
+    "data_processamento": "06/10/2025",
+    "hora_processamento": "18:09",
+    "versao": "3.0",
+    "total_estados_analisados": 16,
+    "total_registros_processados": 1846,
+    "periodo_analise": "2023-2027"
+  },
+  "analise_detalhada_por_estado": {
+    "Sergipe": {
+      "info_basica": {
+        "regiao": "Nordeste",
+        "total_eventos": 20,
+        "periodo_ativo": "2025-2027",
+        "meses_ativos": 7,
+        "media_eventos_mes": 2.9
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 3,
+          "2025-02": 2,
+          "2025-03": 4,
+          "2025-04": 4,
+          "2025-05": 3,
+          "2025-06": 3,
+          "2027-05": 1
+        },
+        "tendencia": "Decrescente",
+        "variancia_mensal": 1.14,
+        "pico_maximo": {
+          "periodo": "2025-03",
+          "eventos": 4
+        },
+        "vale_minimo": {
+          "periodo": "2027-05",
+          "eventos": 1
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-03",
+            "eventos": 4
+          },
+          {
+            "periodo": "2025-04",
+            "eventos": 4
+          },
+          {
+            "periodo": "2025-01",
+            "eventos": 3
+          }
+        ],
+        "sazonalidade": "Baixa"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 16,
+          "Online": 3,
+          "Hibrido": 1
+        },
+        "categorias": {
+          "Mútua": 4,
+          "IES": 4,
+          "CREA": 3,
+          "Entidades de classe": 3,
+          "CREA Jr": 3,
+          "Parceria": 2,
+          "CONFEA": 1
+        },
+        "tipos_atividade": {
+          "Evento": 6,
+          "Treinamento": 4,
+          "Palestras": 3,
+          "Ciclo de Palestras": 2,
+          "Processo seletivo": 1,
+          "Minicurso": 1,
+          "Capacitação": 1,
+          "Semana de engenharia": 1,
+          "Desenvolvimento interno": 1
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "Mútua"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 14,
+        "posicao_regional": 4,
+        "percentil_nacional": 18.8,
+        "acima_media_regional": false
+      }
+    },
+    "Rio Grande do Norte": {
+      "info_basica": {
+        "regiao": "Nordeste",
+        "total_eventos": 54,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 8,
+        "media_eventos_mes": 6.8
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 6,
+          "2025-02": 6,
+          "2025-03": 8,
+          "2025-04": 10,
+          "2025-05": 14,
+          "2025-06": 5,
+          "2025-07": 2,
+          "2025-08": 3
+        },
+        "tendencia": "Decrescente",
+        "variancia_mensal": 15.07,
+        "pico_maximo": {
+          "periodo": "2025-05",
+          "eventos": 14
+        },
+        "vale_minimo": {
+          "periodo": "2025-07",
+          "eventos": 2
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-05",
+            "eventos": 14
+          },
+          {
+            "periodo": "2025-04",
+            "eventos": 10
+          },
+          {
+            "periodo": "2025-03",
+            "eventos": 8
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 38,
+          "Online": 12,
+          "Hibrido": 4
+        },
+        "categorias": {
+          "CREA Jr": 23,
+          "CREA": 19,
+          "Parceria": 4,
+          "Mútua": 3,
+          "IES": 2,
+          "CONFEA": 1,
+          "Estadual": 1,
+          "Sistema": 1
+        },
+        "tipos_atividade": {
+          "Reunião": 17,
+          "Capacitação": 8,
+          "Ciclo de Palestras": 7,
+          "Plenaria": 6,
+          "Evento": 6,
+          "Semana de engenharia": 4,
+          "Reunião interna": 2,
+          "Parceria": 2,
+          "Palestras": 1,
+          "Minicurso": 1
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "CREA Jr"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 8,
+        "posicao_regional": 3,
+        "percentil_nacional": 56.2,
+        "acima_media_regional": false
+      }
+    },
+    "Piauí": {
+      "info_basica": {
+        "regiao": "Nordeste",
+        "total_eventos": 120,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 9,
+        "media_eventos_mes": 13.3
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 6,
+          "2025-02": 22,
+          "2025-03": 22,
+          "2025-04": 34,
+          "2025-05": 9,
+          "2025-06": 5,
+          "2025-07": 9,
+          "2025-08": 9,
+          "2025-09": 4
+        },
+        "tendencia": "Decrescente",
+        "variancia_mensal": 105.5,
+        "pico_maximo": {
+          "periodo": "2025-04",
+          "eventos": 34
+        },
+        "vale_minimo": {
+          "periodo": "2025-09",
+          "eventos": 4
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-04",
+            "eventos": 34
+          },
+          {
+            "periodo": "2025-02",
+            "eventos": 22
+          },
+          {
+            "periodo": "2025-03",
+            "eventos": 22
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 75,
+          "Online": 42,
+          "Hibrido": 3
+        },
+        "categorias": {
+          "Estadual": 39,
+          "CREA Jr": 26,
+          "Nucleo": 24,
+          "CREA": 11,
+          "Empresa": 7,
+          "Parceria": 5,
+          "IES": 3,
+          "Beneficente": 2,
+          "Entidades de classe": 2,
+          "CONFEA": 1
+        },
+        "tipos_atividade": {
+          "Reunião interna": 23,
+          "Palestras": 21,
+          "Evento": 16,
+          "Reunião de representantes": 14,
+          "Reunião": 11,
+          "Desenvolvimento interno": 10,
+          "Semana de engenharia": 10,
+          "Parceria": 6,
+          "Ação social": 3,
+          "Curso": 2
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "Estadual"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 5,
+        "posicao_regional": 2,
+        "percentil_nacional": 75.0,
+        "acima_media_regional": true
+      }
+    },
+    "Maranhão": {
+      "info_basica": {
+        "regiao": "Nordeste",
+        "total_eventos": 228,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 8,
+        "media_eventos_mes": 28.5
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 13,
+          "2025-02": 19,
+          "2025-03": 44,
+          "2025-04": 44,
+          "2025-05": 26,
+          "2025-06": 25,
+          "2025-07": 20,
+          "2025-08": 37
+        },
+        "tendencia": "Crescente",
+        "variancia_mensal": 139.14,
+        "pico_maximo": {
+          "periodo": "2025-03",
+          "eventos": 44
+        },
+        "vale_minimo": {
+          "periodo": "2025-01",
+          "eventos": 13
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-03",
+            "eventos": 44
+          },
+          {
+            "periodo": "2025-04",
+            "eventos": 44
+          },
+          {
+            "periodo": "2025-08",
+            "eventos": 37
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 122,
+          "Online": 100,
+          "Hibrido": 6
+        },
+        "categorias": {
+          "Nucleo": 63,
+          "CREA Jr": 59,
+          "CREA": 22,
+          "Estadual": 19,
+          "Diretoria": 11,
+          "Regional": 11,
+          "IES": 7,
+          "Mútua": 7,
+          "Entidades de classe": 7,
+          "Parceria": 5,
+          "Sistema": 4,
+          "Empresa": 4,
+          "CONFEA": 3,
+          "CA´s": 3,
+          "Beneficente": 2,
+          "EJ´s": 1
+        },
+        "tipos_atividade": {
+          "Evento": 61,
+          "Capacitação": 31,
+          "Reunião interna": 29,
+          "Reunião": 28,
+          "Palestras": 22,
+          "Parceria": 15,
+          "Processo seletivo": 12,
+          "Visita técnica": 10,
+          "Plenaria": 4,
+          "Treinamento": 4
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "Nucleo"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 2,
+        "posicao_regional": 1,
+        "percentil_nacional": 93.8,
+        "acima_media_regional": true
+      }
+    },
+    "Ceará": {
+      "info_basica": {
+        "regiao": "Nordeste",
+        "total_eventos": 4,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 1,
+        "media_eventos_mes": 4.0
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-07": 4
+        },
+        "tendencia": "Dados insuficientes",
+        "variancia_mensal": 0.0,
+        "pico_maximo": {
+          "periodo": "2025-07",
+          "eventos": 4
+        },
+        "vale_minimo": {
+          "periodo": "2025-07",
+          "eventos": 4
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-07",
+            "eventos": 4
+          }
+        ],
+        "sazonalidade": "Baixa"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Online": 2,
+          "Hibrido": 1,
+          "Presencial": 1
+        },
+        "categorias": {
+          "CREA Jr": 2,
+          "CREA": 1,
+          "Parceria": 1
+        },
+        "tipos_atividade": {
+          "Plenaria": 1,
+          "Reunião interna": 1,
+          "Processo seletivo": 1,
+          "Reunião": 1
+        },
+        "modalidade_preferida": "Online",
+        "categoria_principal": "CREA Jr"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 15,
+        "posicao_regional": 5,
+        "percentil_nacional": 12.5,
+        "acima_media_regional": false
+      }
+    },
+    "Goiás": {
+      "info_basica": {
+        "regiao": "Centro-Oeste",
+        "total_eventos": 56,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 5,
+        "media_eventos_mes": 11.2
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 11,
+          "2025-02": 20,
+          "2025-03": 12,
+          "2025-04": 9,
+          "2025-05": 4
+        },
+        "tendencia": "Decrescente",
+        "variancia_mensal": 33.7,
+        "pico_maximo": {
+          "periodo": "2025-02",
+          "eventos": 20
+        },
+        "vale_minimo": {
+          "periodo": "2025-05",
+          "eventos": 4
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-02",
+            "eventos": 20
+          },
+          {
+            "periodo": "2025-03",
+            "eventos": 12
+          },
+          {
+            "periodo": "2025-01",
+            "eventos": 11
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Online": 32,
+          "Presencial": 24
+        },
+        "categorias": {
+          "CREA Jr": 53,
+          "CONFEA": 1,
+          "Entidades de classe": 1,
+          "CREA": 1
+        },
+        "tipos_atividade": {
+          "Reunião interna": 21,
+          "Palestras": 16,
+          "Reunião": 8,
+          "Visita técnica": 5,
+          "Capacitação": 3,
+          "Evento": 2,
+          "Workshop": 1
+        },
+        "modalidade_preferida": "Online",
+        "categoria_principal": "CREA Jr"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 7,
+        "posicao_regional": 1,
+        "percentil_nacional": 62.5,
+        "acima_media_regional": true
+      }
+    },
+    "Distrito Federal": {
+      "info_basica": {
+        "regiao": "Centro-Oeste",
+        "total_eventos": 29,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 7,
+        "media_eventos_mes": 4.1
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 4,
+          "2025-02": 2,
+          "2025-03": 4,
+          "2025-04": 3,
+          "2025-05": 11,
+          "2025-06": 3,
+          "2025-07": 2
+        },
+        "tendencia": "Crescente",
+        "variancia_mensal": 9.81,
+        "pico_maximo": {
+          "periodo": "2025-05",
+          "eventos": 11
+        },
+        "vale_minimo": {
+          "periodo": "2025-02",
+          "eventos": 2
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-05",
+            "eventos": 11
+          },
+          {
+            "periodo": "2025-01",
+            "eventos": 4
+          },
+          {
+            "periodo": "2025-03",
+            "eventos": 4
+          }
+        ],
+        "sazonalidade": "Média"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 16,
+          "Online": 8
+        },
+        "categorias": {
+          "CREA": 12,
+          "CONFEA": 4,
+          "CREA Jr": 4,
+          "Mútua": 3,
+          "Sistema": 1,
+          "Regional": 1,
+          "Estadual": 1
+        },
+        "tipos_atividade": {
+          "Evento": 10,
+          "Reunião": 6,
+          "Plenaria": 3,
+          "Capacitação": 3,
+          "Ciclo de Palestras": 3,
+          "Visita técnica": 2,
+          "Reunião interna": 1,
+          "Desenvolvimento interno": 1
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "CREA"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 11,
+        "posicao_regional": 3,
+        "percentil_nacional": 37.5,
+        "acima_media_regional": false
+      }
+    },
+    "Mato Grosso": {
+      "info_basica": {
+        "regiao": "Centro-Oeste",
+        "total_eventos": 30,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 4,
+        "media_eventos_mes": 7.5
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 2,
+          "2025-02": 5,
+          "2025-03": 15,
+          "2025-06": 8
+        },
+        "tendencia": "Crescente",
+        "variancia_mensal": 31.0,
+        "pico_maximo": {
+          "periodo": "2025-03",
+          "eventos": 15
+        },
+        "vale_minimo": {
+          "periodo": "2025-01",
+          "eventos": 2
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-03",
+            "eventos": 15
+          },
+          {
+            "periodo": "2025-06",
+            "eventos": 8
+          },
+          {
+            "periodo": "2025-02",
+            "eventos": 5
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Online": 16,
+          "Presencial": 12,
+          "Hibrido": 1
+        },
+        "categorias": {
+          "CREA Jr": 16,
+          "CREA": 6,
+          "Parceria": 5,
+          "Mútua": 1,
+          "CONFEA": 1,
+          "IES": 1
+        },
+        "tipos_atividade": {
+          "Reunião interna": 6,
+          "Reunião": 6,
+          "Palestras": 4,
+          "Evento": 3,
+          "Capacitação": 2,
+          "Plenaria": 2,
+          "Curso": 1,
+          "Treinamento": 1,
+          "Minicurso": 1,
+          "Semana de engenharia": 1
+        },
+        "modalidade_preferida": "Online",
+        "categoria_principal": "CREA Jr"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 10,
+        "posicao_regional": 2,
+        "percentil_nacional": 43.8,
+        "acima_media_regional": false
+      }
+    },
+    "Roraima": {
+      "info_basica": {
+        "regiao": "Norte",
+        "total_eventos": 31,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 7,
+        "media_eventos_mes": 4.4
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 4,
+          "2025-02": 2,
+          "2025-03": 5,
+          "2025-04": 5,
+          "2025-05": 5,
+          "2025-06": 5,
+          "2025-07": 5
+        },
+        "tendencia": "Crescente",
+        "variancia_mensal": 1.29,
+        "pico_maximo": {
+          "periodo": "2025-03",
+          "eventos": 5
+        },
+        "vale_minimo": {
+          "periodo": "2025-02",
+          "eventos": 2
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-03",
+            "eventos": 5
+          },
+          {
+            "periodo": "2025-04",
+            "eventos": 5
+          },
+          {
+            "periodo": "2025-05",
+            "eventos": 5
+          }
+        ],
+        "sazonalidade": "Baixa"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 29,
+          "Hibrido": 2
+        },
+        "categorias": {
+          "CREA Jr": 15,
+          "CREA": 8,
+          "IES": 4,
+          "Estadual": 2,
+          "CONFEA": 1,
+          "Regional": 1
+        },
+        "tipos_atividade": {
+          "Evento": 11,
+          "Parceria": 5,
+          "Reunião": 3,
+          "Plenaria": 3,
+          "Palestras": 3,
+          "Reunião de representantes": 2,
+          "Reunião interna": 2,
+          "Reunião Interna": 1,
+          "Visita técnica": 1
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "CREA Jr"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 9,
+        "posicao_regional": 2,
+        "percentil_nacional": 50.0,
+        "acima_media_regional": false
+      }
+    },
+    "Rondonia": {
+      "info_basica": {
+        "regiao": "Norte",
+        "total_eventos": 22,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 6,
+        "media_eventos_mes": 3.7
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-02": 4,
+          "2025-03": 1,
+          "2025-05": 7,
+          "2025-06": 6,
+          "2025-07": 2,
+          "2025-08": 2
+        },
+        "tendencia": "Decrescente",
+        "variancia_mensal": 5.87,
+        "pico_maximo": {
+          "periodo": "2025-05",
+          "eventos": 7
+        },
+        "vale_minimo": {
+          "periodo": "2025-03",
+          "eventos": 1
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-05",
+            "eventos": 7
+          },
+          {
+            "periodo": "2025-06",
+            "eventos": 6
+          },
+          {
+            "periodo": "2025-02",
+            "eventos": 4
+          }
+        ],
+        "sazonalidade": "Média"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 21
+        },
+        "categorias": {
+          "CREA": 12,
+          "CREA Jr": 8,
+          "IES": 1,
+          "Estadual": 1
+        },
+        "tipos_atividade": {
+          "Evento": 6,
+          "Reunião": 5,
+          "Parceria": 4,
+          "Visita técnica": 3,
+          "Minicurso": 1,
+          "Palestras": 1,
+          "Curso": 1,
+          "Capacitação": 1
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "CREA"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 13,
+        "posicao_regional": 4,
+        "percentil_nacional": 25.0,
+        "acima_media_regional": false
+      }
+    },
+    "Pará": {
+      "info_basica": {
+        "regiao": "Norte",
+        "total_eventos": 97,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 7,
+        "media_eventos_mes": 13.9
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 11,
+          "2025-02": 10,
+          "2025-03": 16,
+          "2025-04": 29,
+          "2025-05": 18,
+          "2025-06": 7,
+          "2025-07": 6
+        },
+        "tendencia": "Decrescente",
+        "variancia_mensal": 63.81,
+        "pico_maximo": {
+          "periodo": "2025-04",
+          "eventos": 29
+        },
+        "vale_minimo": {
+          "periodo": "2025-07",
+          "eventos": 6
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-04",
+            "eventos": 29
+          },
+          {
+            "periodo": "2025-05",
+            "eventos": 18
+          },
+          {
+            "periodo": "2025-03",
+            "eventos": 16
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 60,
+          "Online": 37
+        },
+        "categorias": {
+          "CREA Jr": 68,
+          "CREA": 17,
+          "Diretoria": 6,
+          "Sistema": 3,
+          "CONFEA": 2,
+          "Estadual": 1
+        },
+        "tipos_atividade": {
+          "Palestras": 33,
+          "Evento": 20,
+          "Reunião interna": 12,
+          "Reunião": 9,
+          "Plenaria": 6,
+          "Minicurso": 3,
+          "Visita técnica": 3,
+          "Treinamento": 3,
+          "Capacitação": 3,
+          "Processo seletivo": 1
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "CREA Jr"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 6,
+        "posicao_regional": 1,
+        "percentil_nacional": 68.8,
+        "acima_media_regional": true
+      }
+    },
+    "Amazonas": {
+      "info_basica": {
+        "regiao": "Norte",
+        "total_eventos": 26,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 5,
+        "media_eventos_mes": 5.2
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-03": 2,
+          "2025-04": 10,
+          "2025-05": 11,
+          "2025-06": 2,
+          "2025-07": 1
+        },
+        "tendencia": "Decrescente",
+        "variancia_mensal": 23.7,
+        "pico_maximo": {
+          "periodo": "2025-05",
+          "eventos": 11
+        },
+        "vale_minimo": {
+          "periodo": "2025-07",
+          "eventos": 1
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-05",
+            "eventos": 11
+          },
+          {
+            "periodo": "2025-04",
+            "eventos": 10
+          },
+          {
+            "periodo": "2025-03",
+            "eventos": 2
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 13,
+          "Online": 10,
+          "Hibrido": 3
+        },
+        "categorias": {
+          "CREA Jr": 19,
+          "CREA": 5,
+          "Regional": 1,
+          "Diretoria": 1
+        },
+        "tipos_atividade": {
+          "Desenvolvimento interno": 6,
+          "Processo seletivo": 5,
+          "Reunião": 4,
+          "Semana de engenharia": 3,
+          "Plenaria": 2,
+          "Parceria": 1,
+          "Capacitação": 1,
+          "Curso": 1,
+          "Ciclo de Palestras": 1,
+          "Reunião de representantes": 1
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "CREA Jr"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 12,
+        "posicao_regional": 3,
+        "percentil_nacional": 31.2,
+        "acima_media_regional": false
+      }
+    },
+    "Acre": {
+      "info_basica": {
+        "regiao": "Norte",
+        "total_eventos": 2,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 1,
+        "media_eventos_mes": 2.0
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 2
+        },
+        "tendencia": "Dados insuficientes",
+        "variancia_mensal": 0.0,
+        "pico_maximo": {
+          "periodo": "2025-01",
+          "eventos": 2
+        },
+        "vale_minimo": {
+          "periodo": "2025-01",
+          "eventos": 2
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-01",
+            "eventos": 2
+          }
+        ],
+        "sazonalidade": "Baixa"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 2
+        },
+        "categorias": {
+          "CREA": 1,
+          "CONFEA": 1
+        },
+        "tipos_atividade": {
+          "Plenaria": 1,
+          "Reunião de representantes": 1
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "CREA"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 16,
+        "posicao_regional": 5,
+        "percentil_nacional": 6.2,
+        "acima_media_regional": false
+      }
+    },
+    "Minas Gerais": {
+      "info_basica": {
+        "regiao": "Sudeste",
+        "total_eventos": 198,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 7,
+        "media_eventos_mes": 28.3
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 10,
+          "2025-02": 22,
+          "2025-03": 37,
+          "2025-04": 48,
+          "2025-05": 43,
+          "2025-06": 26,
+          "2025-07": 12
+        },
+        "tendencia": "Crescente",
+        "variancia_mensal": 220.9,
+        "pico_maximo": {
+          "periodo": "2025-04",
+          "eventos": 48
+        },
+        "vale_minimo": {
+          "periodo": "2025-01",
+          "eventos": 10
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-04",
+            "eventos": 48
+          },
+          {
+            "periodo": "2025-05",
+            "eventos": 43
+          },
+          {
+            "periodo": "2025-03",
+            "eventos": 37
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 111,
+          "Online": 86,
+          "Hibrido": 1
+        },
+        "categorias": {
+          "Nucleo": 179,
+          "Regional": 10,
+          "Estadual": 9
+        },
+        "tipos_atividade": {
+          "Palestras": 63,
+          "Desenvolvimento interno": 30,
+          "Minicurso": 21,
+          "Visita técnica": 18,
+          "Treinamento": 15,
+          "Ação social": 14,
+          "Processo seletivo": 12,
+          "Ciclo de Palestras": 5,
+          "Curso": 5,
+          "Seminários": 5
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "Nucleo"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 4,
+        "posicao_regional": 2,
+        "percentil_nacional": 81.2,
+        "acima_media_regional": false
+      }
+    },
+    "Espirito Santo": {
+      "info_basica": {
+        "regiao": "Sudeste",
+        "total_eventos": 213,
+        "periodo_ativo": "2025-2025",
+        "meses_ativos": 10,
+        "media_eventos_mes": 21.3
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 6,
+          "2025-02": 14,
+          "2025-03": 39,
+          "2025-04": 44,
+          "2025-05": 39,
+          "2025-06": 42,
+          "2025-07": 18,
+          "2025-08": 9,
+          "2025-10": 1,
+          "2025-11": 1
+        },
+        "tendencia": "Decrescente",
+        "variancia_mensal": 316.01,
+        "pico_maximo": {
+          "periodo": "2025-04",
+          "eventos": 44
+        },
+        "vale_minimo": {
+          "periodo": "2025-10",
+          "eventos": 1
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-04",
+            "eventos": 44
+          },
+          {
+            "periodo": "2025-06",
+            "eventos": 42
+          },
+          {
+            "periodo": "2025-03",
+            "eventos": 39
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Online": 172,
+          "Presencial": 40,
+          "Hibrido": 1
+        },
+        "categorias": {
+          "CREA Jr": 200,
+          "CREA": 6,
+          "Sistema": 3,
+          "Entidades de classe": 3,
+          "Parceria": 1
+        },
+        "tipos_atividade": {
+          "Reunião interna": 88,
+          "Treinamento": 29,
+          "Reunião": 29,
+          "Palestras": 22,
+          "Plenaria": 8,
+          "Workshop": 8,
+          "Processo seletivo": 7,
+          "Ação social": 6,
+          "Semana de engenharia": 4,
+          "Desenvolvimento interno": 3
+        },
+        "modalidade_preferida": "Online",
+        "categoria_principal": "CREA Jr"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 3,
+        "posicao_regional": 1,
+        "percentil_nacional": 87.5,
+        "acima_media_regional": true
+      }
+    },
+    "Santa Catarina": {
+      "info_basica": {
+        "regiao": "Sul",
+        "total_eventos": 716,
+        "periodo_ativo": "2023-2025",
+        "meses_ativos": 11,
+        "media_eventos_mes": 65.1
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2023-03": 1,
+          "2023-07": 1,
+          "2024-04": 1,
+          "2025-01": 9,
+          "2025-02": 70,
+          "2025-03": 136,
+          "2025-04": 119,
+          "2025-05": 128,
+          "2025-06": 74,
+          "2025-07": 65,
+          "2025-08": 112
+        },
+        "tendencia": "Crescente",
+        "variancia_mensal": 2966.49,
+        "pico_maximo": {
+          "periodo": "2025-03",
+          "eventos": 136
+        },
+        "vale_minimo": {
+          "periodo": "2023-03",
+          "eventos": 1
+        },
+        "meses_mais_ativos": [
+          {
+            "periodo": "2025-03",
+            "eventos": 136
+          },
+          {
+            "periodo": "2025-05",
+            "eventos": 128
+          },
+          {
+            "periodo": "2025-04",
+            "eventos": 119
+          }
+        ],
+        "sazonalidade": "Alta"
+      },
+      "distribuicoes": {
+        "modalidades": {
+          "Presencial": 487,
+          "Online": 227,
+          "Hibrido": 2
+        },
+        "categorias": {
+          "CREA Jr": 282,
+          "IES": 149,
+          "CREA": 131,
+          "Parceria": 68,
+          "Empresa": 38,
+          "Entidades de classe": 21,
+          "Beneficente": 20,
+          "CONFEA": 3,
+          "Sistema": 2,
+          "Mútua": 1
+        },
+        "tipos_atividade": {
+          "Reunião": 268,
+          "Reunião interna": 114,
+          "Evento": 96,
+          "Ciclo de Palestras": 68,
+          "Palestras": 41,
+          "Ação social": 36,
+          "Visita técnica": 26,
+          "Parceria": 20,
+          "Desenvolvimento interno": 8,
+          "Processo seletivo": 7
+        },
+        "modalidade_preferida": "Presencial",
+        "categoria_principal": "CREA Jr"
+      },
+      "analise_comparativa": {
+        "posicao_nacional": 1,
+        "posicao_regional": 1,
+        "percentil_nacional": 100.0,
+        "acima_media_regional": false
+      }
+    }
+  },
+  "analise_comparativa_regional": {
+    "Norte": {
+      "resumo": {
+        "total_eventos": 178,
+        "estados_ativos": [
+          "Roraima",
+          "Rondonia",
+          "Pará",
+          "Amazonas",
+          "Acre"
+        ],
+        "numero_estados": 5,
+        "media_eventos_estado": 35.6
+      },
+      "distribuicao_estados": {
+        "Acre": 2,
+        "Amazonas": 26,
+        "Pará": 97,
+        "Rondonia": 22,
+        "Roraima": 31
+      },
+      "homogeneidade": {
+        "coeficiente_variacao": 1.01,
+        "classificacao": "Baixa",
+        "estado_lider": "Pará",
+        "diferenca_lider_ultimo": 95
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 17,
+          "2025-02": 16,
+          "2025-03": 24,
+          "2025-04": 44,
+          "2025-05": 41,
+          "2025-06": 20,
+          "2025-07": 14,
+          "2025-08": 2
+        },
+        "pico_regional": "2025-04"
+      },
+      "preferencias": {
+        "modalidades": {
+          "Presencial": 125,
+          "Online": 47,
+          "Hibrido": 5
+        },
+        "modalidade_dominante": "Presencial"
+      }
+    },
+    "Nordeste": {
+      "resumo": {
+        "total_eventos": 426,
+        "estados_ativos": [
+          "Sergipe",
+          "Rio Grande do Norte",
+          "Piauí",
+          "Maranhão",
+          "Ceará"
+        ],
+        "numero_estados": 5,
+        "media_eventos_estado": 85.2
+      },
+      "distribuicao_estados": {
+        "Ceará": 4,
+        "Maranhão": 228,
+        "Piauí": 120,
+        "Rio Grande do Norte": 54,
+        "Sergipe": 20
+      },
+      "homogeneidade": {
+        "coeficiente_variacao": 1.07,
+        "classificacao": "Baixa",
+        "estado_lider": "Maranhão",
+        "diferenca_lider_ultimo": 224
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 28,
+          "2025-02": 49,
+          "2025-03": 78,
+          "2025-04": 92,
+          "2025-05": 52,
+          "2025-06": 38,
+          "2025-07": 35,
+          "2025-08": 49,
+          "2025-09": 4,
+          "2027-05": 1
+        },
+        "pico_regional": "2025-04"
+      },
+      "preferencias": {
+        "modalidades": {
+          "Presencial": 252,
+          "Online": 159,
+          "Hibrido": 15
+        },
+        "modalidade_dominante": "Presencial"
+      }
+    },
+    "Centro-Oeste": {
+      "resumo": {
+        "total_eventos": 115,
+        "estados_ativos": [
+          "Goiás",
+          "Distrito Federal",
+          "Mato Grosso"
+        ],
+        "numero_estados": 3,
+        "media_eventos_estado": 38.3
+      },
+      "distribuicao_estados": {
+        "Distrito Federal": 29,
+        "Goiás": 56,
+        "Mato Grosso": 30
+      },
+      "homogeneidade": {
+        "coeficiente_variacao": 0.4,
+        "classificacao": "Alta",
+        "estado_lider": "Goiás",
+        "diferenca_lider_ultimo": 27
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 17,
+          "2025-02": 27,
+          "2025-03": 31,
+          "2025-04": 12,
+          "2025-05": 15,
+          "2025-06": 11,
+          "2025-07": 2
+        },
+        "pico_regional": "2025-03"
+      },
+      "preferencias": {
+        "modalidades": {
+          "Online": 56,
+          "Presencial": 52,
+          "Hibrido": 1
+        },
+        "modalidade_dominante": "Online"
+      }
+    },
+    "Sudeste": {
+      "resumo": {
+        "total_eventos": 411,
+        "estados_ativos": [
+          "Minas Gerais",
+          "Espirito Santo"
+        ],
+        "numero_estados": 2,
+        "media_eventos_estado": 205.5
+      },
+      "distribuicao_estados": {
+        "Espirito Santo": 213,
+        "Minas Gerais": 198
+      },
+      "homogeneidade": {
+        "coeficiente_variacao": 0.05,
+        "classificacao": "Alta",
+        "estado_lider": "Espirito Santo",
+        "diferenca_lider_ultimo": 15
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2025-01": 16,
+          "2025-02": 36,
+          "2025-03": 76,
+          "2025-04": 92,
+          "2025-05": 82,
+          "2025-06": 68,
+          "2025-07": 30,
+          "2025-08": 9,
+          "2025-10": 1,
+          "2025-11": 1
+        },
+        "pico_regional": "2025-04"
+      },
+      "preferencias": {
+        "modalidades": {
+          "Online": 258,
+          "Presencial": 151,
+          "Hibrido": 2
+        },
+        "modalidade_dominante": "Online"
+      }
+    },
+    "Sul": {
+      "resumo": {
+        "total_eventos": 716,
+        "estados_ativos": [
+          "Santa Catarina"
+        ],
+        "numero_estados": 1,
+        "media_eventos_estado": 716.0
+      },
+      "distribuicao_estados": {
+        "Santa Catarina": 716
+      },
+      "homogeneidade": {
+        "coeficiente_variacao": 0.0,
+        "classificacao": "Alta",
+        "estado_lider": "Santa Catarina",
+        "diferenca_lider_ultimo": 0
+      },
+      "evolucao_temporal": {
+        "evolucao_mensal": {
+          "2023-03": 1,
+          "2023-07": 1,
+          "2024-04": 1,
+          "2025-01": 9,
+          "2025-02": 70,
+          "2025-03": 136,
+          "2025-04": 119,
+          "2025-05": 128,
+          "2025-06": 74,
+          "2025-07": 65,
+          "2025-08": 112
+        },
+        "pico_regional": "2025-03"
+      },
+      "preferencias": {
+        "modalidades": {
+          "Presencial": 487,
+          "Online": 227,
+          "Hibrido": 2
+        },
+        "modalidade_dominante": "Presencial"
+      }
+    }
+  },
+  "rankings": {
+    "nacional_por_volume": [
+      [
+        "Santa Catarina",
+        716
+      ],
+      [
+        "Maranhão",
+        228
+      ],
+      [
+        "Espirito Santo",
+        213
+      ],
+      [
+        "Minas Gerais",
+        198
+      ],
+      [
+        "Piauí",
+        120
+      ],
+      [
+        "Pará",
+        97
+      ],
+      [
+        "Goiás",
+        56
+      ],
+      [
+        "Rio Grande do Norte",
+        54
+      ],
+      [
+        "Roraima",
+        31
+      ],
+      [
+        "Mato Grosso",
+        30
+      ],
+      [
+        "Distrito Federal",
+        29
+      ],
+      [
+        "Amazonas",
+        26
+      ],
+      [
+        "Rondonia",
+        22
+      ],
+      [
+        "Sergipe",
+        20
+      ],
+      [
+        "Ceará",
+        4
+      ],
+      [
+        "Acre",
+        2
+      ]
+    ],
+    "por_consistencia": [
+      [
+        "Ceará",
+        0.0
+      ],
+      [
+        "Acre",
+        0.0
+      ],
+      [
+        "Sergipe",
+        1.14
+      ],
+      [
+        "Roraima",
+        1.29
+      ],
+      [
+        "Rondonia",
+        5.87
+      ],
+      [
+        "Distrito Federal",
+        9.81
+      ],
+      [
+        "Rio Grande do Norte",
+        15.07
+      ],
+      [
+        "Amazonas",
+        23.7
+      ],
+      [
+        "Mato Grosso",
+        31.0
+      ],
+      [
+        "Goiás",
+        33.7
+      ],
+      [
+        "Pará",
+        63.81
+      ],
+      [
+        "Piauí",
+        105.5
+      ],
+      [
+        "Maranhão",
+        139.14
+      ],
+      [
+        "Minas Gerais",
+        220.9
+      ],
+      [
+        "Espirito Santo",
+        316.01
+      ],
+      [
+        "Santa Catarina",
+        2966.49
+      ]
+    ],
+    "crescimento": [
+      "Maranhão",
+      "Distrito Federal",
+      "Mato Grosso",
+      "Roraima",
+      "Minas Gerais",
+      "Santa Catarina"
+    ]
+  },
+  "insights_globais": {
+    "estado_mais_ativo": "Santa Catarina",
+    "estado_mais_consistente": "Ceará",
+    "regiao_mais_ativa": "Sul",
+    "regiao_mais_homogenea": "Sul",
+    "tendencias_crescentes": [
+      "Maranhão",
+      "Distrito Federal",
+      "Mato Grosso",
+      "Roraima",
+      "Minas Gerais",
+      "Santa Catarina"
+    ],
+    "modalidade_nacional": "Presencial"
+  }
+}
