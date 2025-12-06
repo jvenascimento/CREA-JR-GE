@@ -1612,17 +1612,17 @@
     },
     "Sul": {
       "resumo": {
-        "total_eventos": 1144,
+        "total_eventos": 602,
         "estados_ativos": [
           "Santa Catarina",
           "Paraná"
         ],
         "numero_estados": 2,
-        "media_eventos_estado": 572.0
+        "media_eventos_estado": 0
       },
       "distribuicao_estados": {
         "Paraná": 323,
-        "Santa Catarina": 821
+        "Santa Catarina": 478
       },
       "homogeneidade": {
         "coeficiente_variacao": 0.62,
