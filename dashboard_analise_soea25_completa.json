@@ -157,9 +157,9 @@
           "Estadual": 1
         },
         "tipos_atividade": {
-          "Reunião": 292,
+          "Reunião": 0,
           "Evento": 120,
-          "Reunião interna": 115,
+          "Reunião interna": 0,
           "Ciclo de Palestras ": 73,
           "Palestras": 52,
           "Ação social": 36,
@@ -233,7 +233,7 @@
         },
         "tipos_atividade": {
           "Evento": 6,
-          "Reunião": 5,
+          "Reunião": 0,
           "Parceria": 4,
           "Visita técnica": 3,
           "Minicurso": 1,
@@ -314,7 +314,7 @@
           "Parceria": 5,
           "Plenaria": 4,
           "Palestras": 4,
-          "Reunião": 3,
+          "Reunião": 0,
           "Reunião interna": 3,
           "Reunião de representantes": 2,
           "Reunião Interna": 1,
